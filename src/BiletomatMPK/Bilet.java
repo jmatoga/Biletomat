@@ -23,9 +23,6 @@ public class Bilet {
     public String toString() {
         return dataZakupu + " : " + rodzajBiletu + " : " + liczbaBiletow + " : " + cenaBiletow + " : " + liczbaBiletow * cenaBiletow;
     }
-    //public String toString() {
-    //    return "Rodzaj biletu: " + rodzajBiletu + ". Cena: " + cenaBiletu;
-    //}
 
     public String getRodzajBiletu() {
         return rodzajBiletu;
